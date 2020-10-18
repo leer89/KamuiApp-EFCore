@@ -4,9 +4,9 @@ using System.Text;
 
 namespace KakashiApp.Domain
 {
-    class Genin
+    public class Ninja
     {
-        public Genin()
+        public Ninja()
         {
             Quotes = new List<Quote>();
         }

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace KakashiApp.Domain
 {
-    class Quote
+    public class Quote
     {
         public int Id { get; set; }
         public string Text { get; set; }
-        public Genin Genin { get; set; }
+        public Ninja Genin { get; set; }
         public int GeninId { get; set; }
     }
 }

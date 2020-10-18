@@ -4,7 +4,7 @@ using System.Text;
 
 namespace KakashiApp.Domain
 {
-    class Clan
+    public class Clan
     {
         public int Id { get; set; }
         public string ClanName { get; set; }
